@@ -37,19 +37,6 @@ d451e7ca-ce7f-4a9d-99d8-dac57fa2aa70
 4bef9af3-3382-47d9-a6b6-6c0bd26c8700
 895c0f2a-ff82-45e3-8376-d62e5fa853c7
 ```
-
-## Fix code style and formatting issues
-
-```sh
-npm run lint
-```
-
-To automatically fix such issues:
-
-```sh
-npm run lint:fix
-```
-
 ## Other useful commands
 
 - `npm run migrate`: Migrate database schemas for models
