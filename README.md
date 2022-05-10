@@ -14,10 +14,10 @@ npm run start:watch
 ```
 Server should run at http://127.0.0.1:3001
 
-There are three REST API endpoints available, you can use postman to test the endpoints.
+There are three REST API endpoints available, you can use postman to test the endpoints.<br>
 I used **Thunder Client** VS Code extension to test the APIs.
 
-1- [POST] http://127.0.0.1:3001/deck/create **(create a new Deck)**
+1- [POST] http://127.0.0.1:3001/deck/create **(create a new Deck)**<br>
 *following is the request body*
 ```sh
 {
@@ -25,12 +25,12 @@ I used **Thunder Client** VS Code extension to test the APIs.
   "shuffled": true
 }
 ```
-`Note: request body is required, 'type' can only have 'FULL' or 'SHORT' value and 'shuffled' can only have boolean value otherwise it will throw exception.`
+>**Note:** request body is required, 'type' can only have 'FULL' or 'SHORT' value and 'shuffled' can only have boolean value otherwise it will throw exception.
 
-2- [GET] http://127.0.0.1:3001/deck/open/{deckId} **(Open a Deck)**
+2- [GET] http://127.0.0.1:3001/deck/open/{deckId} **(Open a Deck)**<br>
 3- [GET] http://127.0.0.1:3001/deck/drawcards/{deckId}/{count} **(Draw a Card)**
 
-`Note: I have uploaded data file (/data/db.json) with some data, following are some deck IDs to test above two GET endpoints`
+>**Note:** I have uploaded data file (/data/db.json) with some data, following are some deck IDs to test above two GET endpoints`
 ```sh
 308efb3d-3207-4fec-a38d-fb7d4f589be0
 d451e7ca-ce7f-4a9d-99d8-dac57fa2aa70
